@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .admin-panel {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 200px;
+    background-color: #AF2F64;
+    color: white;
+    padding: 20px;
+    height: 100vh;
+  }
+  
+  .sidebar h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar li {
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .sidebar li:hover {
+    background-color: #fab555;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .add-course, .browse-courses {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-course h3, .browse-courses h3 {
+    margin-bottom: 20px;
+  }
+  
+  .course-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .course-form button {
+    font-size: 14px; 
+    background-color: #AF2F64;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .course-form button:hover {
+    background-color: #fab555;
+  }
+  
+  .browse-courses table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .browse-courses table th, .browse-courses table td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .browse-courses table th {
+    background-color: #f2f2f2;
+  }
+  
+  .browse-courses table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .browse-courses table button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .browse-courses table button:hover {
+    background-color: #45a049;
+  }
+  
+  .browse-courses table button:nth-child(2) {
+    background-color: #f44336;
+  }
+  
+  .browse-courses table button:nth-child(2):hover {
+    background-color: #d32f2f;
+  }
+  .course-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; 
+  }
+  
